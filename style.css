@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+:root{
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+
+  
+  --White: hsl(0, 0%, 100%);
+  --Very-light-grayish-blue: hsl(210, 60%, 98%);
+  --deeplight-grayish-blue: hsl(211, 68%, 94%);
+  --Light-grayish-blue: hsl(205, 33%, 90%);
+  --Grayish-blue: hsl(219, 14%, 63%);
+  --Dark-grayish-blue: hsl(219, 12%, 42%);
+  --Very-dark-blue: hsl(224, 21%, 14%);
+  
+  --ff-jakarta :'Plus Jakarta Sans', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-jakarta);
+}
+
+.container{
+  width: auto;
+  height: 100Vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Light-grayish-blue);
+  /* position: relative; */
+}
+
+.wrapper{
+  width: 60%;
+  height: 90%;
+  padding: .5rem 1rem;
+  display: grid;
+  gap: 1rem;
+  background-color: var(--White);
+  border-radius: 10px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  /* overflow-y: auto; */
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notification{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.notification h2{
+  font-weight: 800;
+}
+
+.notification div{
+  padding: 1px 10px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: var(--Blue);
+  color: var(--White);
+}
+
+.heading button{
+  background-color: var(--White);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.heading button:hover{
+  color: var(--Blue);
+}
+
+.not{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: .5rem .7rem;
+}
+
+.not img{
+  height: 2.5rem;
+}
+
+.name, .not-link{
+  text-decoration: none;
+  font-weight: 800;
+  font-size: .9rem;
+  padding: 0 2px;
+}
+
+.name{
+  color: var(--Very-dark-blue);
+}
+
+.not-link{
+  color: var(--Dark-grayish-blue);
+}
+
+.not-link:hover{
+  color: var(--Blue);
+}
+
+.name:hover{
+  color: var(--Blue);
+}
+
+.not p{
+  color: var(--Grayish-blue);
+  font-size: .8rem;
+  padding: 2px 0;
+}
+
+.red-dot{
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  background-color: var(--Red);
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.active{
+  background-color: var(--deeplight-grayish-blue);
+  border-radius: 8px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.rizky img{
+  align-self: self-start;
+}
+
+.private-message{
+  margin-top: .5rem;
+  padding: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.private-message:hover{
+  background-color: var(--Light-grayish-blue);
+  border-radius: 8px;
+}
+
+.two-img{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media (max-width:680px){
+  .wrapper{
+    width: auto;
+    height: 100%;
+    border-radius: 0;
+  
+  }
+}
+
+
+
+
+
+
+
+/* ATTRIBUTION STYLE */
+.attribution{
+  text-align: center;
+}
+
+.attribution a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
